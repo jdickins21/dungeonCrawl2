@@ -1,14 +1,17 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Items/Stick.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player.cs">
     <Files>
-      <File FileName="Assets/Scripts/Items/Sword.cs" Line="13" Column="77" />
-      <File FileName="Assets/Scripts/Items/Fists.cs" Line="12" Column="23" />
-      <File FileName="Assets/Scripts/Items/Stick.cs" Line="12" Column="23" />
+      <File FileName="Assets/Scripts/Items/StickPickup.cs" Line="13" Column="22" />
+      <File FileName="Assets/Scripts/Items/SwordPickup.cs" Line="13" Column="22" />
       <File FileName="Assets/Scripts/Items/Item.cs" Line="25" Column="36" />
-      <File FileName="Assets/Scripts/Pickup.cs" Line="28" Column="64" />
-      <File FileName="Assets/Scripts/Items/ItemManager.cs" Line="16" Column="51" />
-      <File FileName="Assets/Scripts/Player.cs" Line="10" Column="14" />
+      <File FileName="Assets/Text/tutorial.txt" Line="8" Column="39" />
+      <File FileName="Assets/Scripts/Items/Pickup.cs" Line="18" Column="14" />
+      <File FileName="Assets/Scripts/Player.cs" Line="24" Column="24" />
+      <File FileName="Assets/Scripts/TutorialManager.cs" Line="14" Column="30" />
+      <File FileName="Assets/Scripts/Items/Weapon.cs" Line="9" Column="24" />
+      <File FileName="Assets/Scripts/Animate.cs" Line="22" Column="50" />
+      <File FileName="Assets/Scripts/SceneLoader.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

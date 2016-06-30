@@ -13,7 +13,7 @@ public class SwordPickup : Pickup {
 	public Weapon sword;
 
 	//function called by player to pickup item
-	public void pickUp(){
+	public override void pickUp(){
 		if (isNear) {
 			ItemManager.addItem (this.gameObject.GetComponent<Item> ());
 			player.weapon = sword;

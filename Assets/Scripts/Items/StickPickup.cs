@@ -13,14 +13,17 @@ public class StickPickup : Pickup {
 	public Weapon stick;
 
 	//function called by player to pickup item
-	public void pickUp(){
+	public override void pickUp(){
 		if (isNear) {
+			print ("near");
 			ItemManager.addItem (this.gameObject.GetComponent<Item> ());
-			player.weapon = stick;
+			//player.weapon = stick;
 			Destroy (gameObject);
 			tManager.speak (3);
 			tManager.speak (4);
 			tManager.speak (5);
+		} else {
+			print ("stick far");
 		}
 	}
 }

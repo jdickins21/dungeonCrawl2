@@ -11,6 +11,8 @@ public class TutorialManager : MonoBehaviour {
 	public TextAsset textFileTwo;
 	public TextAsset textFileThree;
 
+	//to keep track of the items
+
 	public string[] lines;
 	private string[] linesAlt;
 	private string[] fistLines;
