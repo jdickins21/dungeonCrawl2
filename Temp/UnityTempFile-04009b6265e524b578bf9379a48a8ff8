@@ -81,6 +81,15 @@
 -define:UNITY_EDITOR_OSX
 -define:UNITY_TEAM_LICENSE
 -define:UNITY_PRO_LICENSE
+'Assets/Scripts/Animate.cs'
+'Assets/Scripts/Items/Fists.cs'
+'Assets/Scripts/Items/Item.cs'
+'Assets/Scripts/Items/ItemManager.cs'
+'Assets/Scripts/Items/Stick.cs'
+'Assets/Scripts/Items/Sword.cs'
+'Assets/Scripts/Pickup.cs'
+'Assets/Scripts/Player.cs'
 'Assets/Scripts/SceneLoader.cs'
+'Assets/Scripts/TutorialManager.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'

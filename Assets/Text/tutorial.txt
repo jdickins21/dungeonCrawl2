@@ -1,0 +1,8 @@
+WASD to move
+You’ve made it.
+Walk over and pickup that stick.
+Can you fight?
+SPACE to attack
+There is someone who needs you’r help up the road.
+Now go pickup that sword.
+Up the road, you will find your quest.
