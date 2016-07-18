@@ -8,13 +8,13 @@ public class Pickup : MonoBehaviour {
 	public GameObject itemsManager;
 
 	//item knows player is near
-	protected void OnTriggerEnter(){
+	void OnTriggerEnter2D(Collider2D other){
 		print ("welcome");
 		isNear = true;
 	}
 
 	//item kows player has left
-	protected void OnTriggerExit(){
+	void OnTriggerExit2D(Collider2D other){
 		print ("bye");
 		isNear = false;
 	}

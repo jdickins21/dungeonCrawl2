@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public abstract class Animate : MonoBehaviour {
 
 	protected Rigidbody2D rb2d;
+	protected Animator anim;
 
 	//dictionary of stats
 	public static Dictionary<string, float> stats = new Dictionary<string, float>(){
@@ -16,9 +17,10 @@ public abstract class Animate : MonoBehaviour {
 
 	void Start () {
 		rb2d = gameObject.GetComponent<Rigidbody2D> ();
+		anim = gameObject.GetComponent<Animator> ();
 	}
 
-	protected virtual void AttemptMove (float xDir, float yDir, float speed){
-		rb2d.velocity = new Vector2(xDir,yDir) * speed;
+	protected virtual void AttemptMove (Vector2 moveVec, float speed){
+		rb2d.MovePosition(rb2d.position + moveVec * speed * Time.deltaTime);
 	}
 }

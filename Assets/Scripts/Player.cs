@@ -15,11 +15,14 @@ public class Player : Animate {
 	//singleton of Player
 	public static Player playerInstance;
 
+	//to keep track of direction input
+	private Vector2 MoveVec;
 
 
 	// Use this for initialization
 	void Start () {
 		rb2d = gameObject.GetComponent<Rigidbody2D> ();
+		anim = gameObject.GetComponent<Animator> ();
 		stats ["health"] = 10.0f;
 		stats ["speed"] = 5.0f;
 		grabables = GameObject.FindGameObjectsWithTag ("Pickup");
@@ -40,23 +43,14 @@ public class Player : Animate {
 				}
 			}
 		}
-	}
-	protected override void AttemptMove(float xDir, float yDir, float speed){
-		base.AttemptMove (xDir, yDir, speed);
+		MoveVec = new Vector2 (Input.GetAxisRaw ("Horizontal"), Input.GetAxisRaw ("Vertical"));
+
+		if(MoveVec != Vector2.zero && !ignoreInput){
+			AttemptMove (MoveVec, stats["speed"]);
+		}
 	}
 
 	void FixedUpdate () {
-		float horizontal = 0.0f; 
-		float vertical = 0.0f; 
-
-		horizontal = (Input.GetAxis ("Horizontal"));
-		vertical = (Input.GetAxis ("Vertical"));
-		if(horizontal != 0){
-			vertical = 0;
-		}
-		if(horizontal != 0 || vertical != 0 && !ignoreInput){
-			AttemptMove (horizontal, vertical, stats["speed"]);
-		}
 	}
 
 	public void addToStat(string stat, float mod){
