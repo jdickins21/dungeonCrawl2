@@ -22,8 +22,6 @@ public class StickPickup : Pickup {
 			tManager.speak (3);
 			tManager.speak (4);
 			tManager.speak (5);
-		} else {
-			print ("stick far");
-		}
+		} 
 	}
 }
