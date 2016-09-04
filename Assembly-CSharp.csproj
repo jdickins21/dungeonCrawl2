@@ -58,9 +58,13 @@
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\SceneLoader.cs" />
      <Compile Include="Assets\Scripts\TutorialManager.cs" />
-     <Compile Include="Assets\Scripts\pathfinding\EnemyPathfinding.cs" />
+     <Compile Include="Assets\Scripts\Warp.cs" />
+     <Compile Include="Assets\Scripts\pathfinding\Enemy.cs" />
      <Compile Include="Assets\Scripts\pathfinding\Grid.cs" />
+     <Compile Include="Assets\Scripts\pathfinding\Heap.cs" />
      <Compile Include="Assets\Scripts\pathfinding\Node.cs" />
+     <Compile Include="Assets\Scripts\pathfinding\PathRequestManager.cs" />
+     <Compile Include="Assets\Scripts\pathfinding\Pathfinding.cs" />
      <None Include="Assets\Text\tutorialAlt.txt" />
      <None Include="Assets\Text\tutorial.txt" />
      <None Include="Assets\Text\tutorialFist.txt" />

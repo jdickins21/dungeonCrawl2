@@ -1,19 +1,18 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Animate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/pathfinding/EnemyPathfinding.cs">
     <Files>
-      <File FileName="Assets/Scripts/Animate.cs" Line="7" Column="43" />
-      <File FileName="Assets/Scripts/Player.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Items/StickPickup.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Items/SwordPickup.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Items/Item.cs" Line="1" Column="1" />
-      <File FileName="Assets/Text/tutorial.txt" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Items/Pickup.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/TutorialManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Items/Weapon.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SceneLoader.cs" Line="1" Column="1" />
-      <File FileName="../SideScroller/Assets/Script/UserInput.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/pathfinding/Node.cs" Line="12" Column="3" />
+      <File FileName="Assets/Scripts/pathfinding/Grid.cs" Line="50" Column="59" />
+      <File FileName="Assets/Scripts/pathfinding/EnemyPathfinding.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="dungeonCrawl2" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
