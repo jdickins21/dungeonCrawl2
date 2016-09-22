@@ -1,18 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/pathfinding/EnemyPathfinding.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/pathfinding/Pathfinding.cs">
     <Files>
-      <File FileName="Assets/Scripts/pathfinding/Node.cs" Line="12" Column="3" />
-      <File FileName="Assets/Scripts/pathfinding/Grid.cs" Line="50" Column="59" />
-      <File FileName="Assets/Scripts/pathfinding/EnemyPathfinding.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/pathfinding/Heap.cs" Line="95" Column="15" />
+      <File FileName="Assets/Scripts/pathfinding/PathRequestManager.cs" Line="38" Column="21" />
+      <File FileName="Assets/Scripts/pathfinding/Pathfinding.cs" Line="46" Column="122" />
+      <File FileName="Assets/Scripts/pathfinding/Grid.cs" Line="12" Column="12" />
+      <File FileName="Assets/Scripts/pathfinding/Node.cs" Line="23" Column="30" />
+      <File FileName="Assets/Scripts/Warp.cs" Line="12" Column="55" />
+      <File FileName="Assets/Scripts/Items/Weapon.cs" Line="9" Column="14" />
+      <File FileName="Assets/Scripts/pathfinding/Enemy.cs" Line="4" Column="37" />
     </Files>
-    <Pads>
-      <Pad Id="ClassPad">
-        <State name="__root__">
-          <Node name="dungeonCrawl2" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
