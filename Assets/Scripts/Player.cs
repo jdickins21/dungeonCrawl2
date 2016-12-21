@@ -3,8 +3,7 @@ using System.Collections;
 
 public class Player : Animate {
 
-	//weapon for in game
-	public Weapon weapon;
+	//FIXME weapon for in game
 
 	//list of items in a room that an be pickedup
 	public GameObject[] grabables;
@@ -36,13 +35,6 @@ public class Player : Animate {
 	}
 
 	void Update(){
-		if (Input.GetKeyDown(KeyCode.E)) {
-			foreach (GameObject pickup in grabables){
-				if (pickup.GetComponentInChildren<Pickup> () != null) {
-					pickup.GetComponentInChildren<Pickup> ().pickUp ();
-				}
-			}
-		}
 		MoveVec = new Vector2 (Input.GetAxisRaw ("Horizontal"), Input.GetAxisRaw ("Vertical"));
 
 		if(MoveVec != Vector2.zero && !ignoreInput){
